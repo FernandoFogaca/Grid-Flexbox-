@@ -1,7 +1,7 @@
 body {
-
+    
     display: grid;
-    background-color: #e4e4e4;
+    background-color: #ffffff;
     margin-top: 10%;
     width: 50%;
     margin-left: auto;
@@ -15,8 +15,23 @@ body {
     grid-template-areas: "header header"
         "aside main"
         "footer footer";
+}
+
+h1{
+font: verdana;
+font-size: 30px;    
+color: white;
+text-decoration: underline;
+border-radius: 28px;
+border: solid #C3CFD9 8px;
+padding: 10px;
+background-color:  #10467d;
+margin-top: 30px;
+text-align: center;
 
 }
+
+
 
 div {
 
@@ -56,9 +71,6 @@ div {
     padding: 5px;
     box-sizing: border-box;
     grid-area: aside;
-
-
-
 }
 
 #main {
@@ -90,7 +102,6 @@ div {
     padding: 15px;
     box-sizing: border-box;
 
-
 }
 
 .flex-item-article3 {
@@ -102,12 +113,5 @@ div {
     padding-left: 35px;
     flex-grow: 1;
     font-size: 20px;
-
-
-
-
-
-
-
 
 }
